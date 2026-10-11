@@ -132,7 +132,7 @@ import jakarta.transaction.Transactional;
 			return "record not found";
 		}
 		studentDetailsRepo.updatePartialStudentDetails(roll,fees);
-		return "Partial resources Updated";
+		return "Partial Resources Updated Sucessfully";
 	}
 
 	@Transactional
@@ -151,7 +151,7 @@ import jakarta.transaction.Transactional;
 		}
 		else 
 		{
-		return "DeleteSoftly if not Active";
+		return "DeleteSoftly if not Active status";
 		}
 	}
 
