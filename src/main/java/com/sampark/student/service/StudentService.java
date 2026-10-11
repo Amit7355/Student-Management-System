@@ -175,7 +175,7 @@ import jakarta.transaction.Transactional;
 				                 studentRequestAll.getClassName(),
 				                 studentRequestAll.isStatus());
 		}
-		return "All Data Updated";
+		return "All Data Updated succesfully";
 	}
 
 	public List<Student> getAllStudents() {
