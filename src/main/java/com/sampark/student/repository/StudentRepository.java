@@ -10,7 +10,7 @@ import com.sampark.student.model.Student;
 
 public interface StudentRepository extends JpaRepository<Student, Integer> {
 
-    @Query(value = "SELECT * FROM student WHERE status=true", nativeQuery = true)
+    @Query(value = "SELECT * FROM student", nativeQuery = true)
     List<Student> getAllStudents();
     
     // Fetch By Id
